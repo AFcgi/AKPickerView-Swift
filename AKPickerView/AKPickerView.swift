@@ -78,7 +78,7 @@ private class AKCollectionViewCell: UICollectionViewCell {
 		self.label.backgroundColor = UIColor.clear
 		self.label.textAlignment = .center
 		self.label.textColor = UIColor.gray
-		self.label.numberOfLines = 1
+		self.label.numberOfLines = 0
 		self.label.lineBreakMode = .byTruncatingTail
 		self.label.highlightedTextColor = UIColor.black
 		self.label.font = self.font
